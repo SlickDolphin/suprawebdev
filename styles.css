@@ -98,7 +98,7 @@ nav a:hover::before {
         ),
         /* bottom, image */
         url(/suprawebdesign/WorkStation.jpg);
-        background-size: 1550px 1000px;
+        background-size: cover;
 }
 
 .button {
