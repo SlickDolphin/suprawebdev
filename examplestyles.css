@@ -97,7 +97,7 @@ nav a:hover::before {
           rgba(0, 0, 0, 0.4)
         ),
         /* bottom, image */
-        url(/steak.jpg);
+        url(/suprawebdesign/steak.jpg);
         background-size: 1550px 1000px;
 }
 
