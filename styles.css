@@ -119,7 +119,14 @@ span.pra {
 }
 
 .about {
-    background-color: #000000;
+    background-image: url("/suprawebdesign/drw.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding: 40px;
+	text-shadow: 2px 1px 1px #4d4d4d;
 }
 
 .aboutpara {
