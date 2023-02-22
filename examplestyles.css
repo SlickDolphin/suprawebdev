@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+        }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+    z-index: 2;
+    }
+
+header {
+  background: #FFFFFF;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+z-index: 100;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+  padding-top: 4px;
+}
+
+nav {
+  float: right;
+  }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #0067FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.intro {
+     color: #FFD4DE;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.intropicindex { 
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        /* bottom, image */
+        url(/GSK/food.jpg);
+        background-size: 1550px 1000px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+span.pra { 
+    color:#FFD4DE;
+}
+
+.about {
+    background-image: url("/GSK/location.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding: 40px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+}
+
+.aboutpara {
+     color:yellow; 
+    font-size:40px; 
+    font-family:Arial Narrow;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+section.footer {
+    background-color: lightgray;
+}
+
+p.footer {
+    text-align:center;
+    width:500px;
+    margin:10px auto;
+    }
+
+.servicespic { 
+    background:
+        url(/SWD/services.jpg);
+        background-size: cover;
+}
+
+span.services {
+    font-size:100%;
+    display: inline-block;
+    width: 300px;
+}
+
+p.services {
+    color: gray;
+    width: 300px;
+    text-align: left;
+}
+
+.clientsintro {
+    text-align:center;
+    font-size:25px;
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.clientname {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+span.about {
+    display: inline-flex;
+    align-self: center;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.abouttext {
+    text-align:left;
+    font-size:25px;
+    width: 500px;
+    color: lightgray;
+    padding-left: 50px;
+}
+
+li.services {
+    text-align: left;
+}
+
+.txtb{
+  margin: 20px 0;
+  background: rgba(255,255,255,.5);
+  border-radius: 6px;
+}
+.signup-btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #487eb0;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+.signup-form a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "montserrat",sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+}
+.signup-form a:hover{
+  background: rgba(0,0,0,.3);
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.side {
+ height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 5;
+  background-color: #111111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.side a {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
