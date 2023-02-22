@@ -97,7 +97,7 @@ nav a:hover::before {
           rgba(0, 0, 0, 0.4)
         ),
         /* bottom, image */
-        url(/SWD/WorkStation.jpg);
+        url(/suprawebdesign/WorkStation.jpg);
         background-size: 1550px 1000px;
 }
 
