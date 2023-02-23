@@ -311,16 +311,12 @@ nav li {
         background-size: cover;
 }
 
-#servicesdes {
+span.services {
     font-size:100%;
-    width: 300px;
-}
-
-#servicesmaintcons {
-    font-size:100%;
+    display: inline-block;
     width: 300px;
     top-margin:150px;
-}
+	}
 	
 p.services {
     color: gray;
