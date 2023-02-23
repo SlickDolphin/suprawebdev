@@ -255,7 +255,7 @@ li.services {
 }
 
 @media screen and (max-width: 481px){
-#aboutpara {
+.aboutpara {
     color:white; 
     font-size:20x; 
     font-family:Arial Narrow;
