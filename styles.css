@@ -313,7 +313,7 @@ nav li {
 
 span.services {
     font-size:100%;
-    display: inline-block;
+    display: block;
     width: 300px;
     top-margin:150px;
 	}
