@@ -255,20 +255,13 @@ li.services {
 }
 
 @media screen and (max-width: 481px){
-
-
-#button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 12px;
+#aboutpara {
+    color:white; 
+    font-size:20x; 
+    font-family:Arial Narrow;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
-
 
 }
