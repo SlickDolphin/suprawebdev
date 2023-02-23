@@ -321,5 +321,10 @@ p.services {
     width: 300px;
     text-align: left;
 }
+	
+#break1::after{
+    content: "\a";
+    white-space: pre;
+}
 
 }
