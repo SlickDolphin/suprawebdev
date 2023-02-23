@@ -158,7 +158,13 @@ span.pra {
         background-size: cover;
 }
 
-span.services {
+span.servicesdes {
+    font-size:100%;
+    display: inline-block;
+    width: 300px;
+}
+
+span.servicesmaintcons {
     font-size:100%;
     display: inline-block;
     width: 300px;
