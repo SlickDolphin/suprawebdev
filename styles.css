@@ -149,7 +149,11 @@ span.pra {
 }
 
 .servicespic { 
-    background:
+    font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	font-size:500%;
+	background:
         url(/suprawebdesign/services.jpg);
         background-size: cover;
 }
@@ -297,4 +301,14 @@ nav li {
   margin-right: auto;
 }
 
+.servicespic { 
+    font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	font-size:300%;
+	background:
+        url(/suprawebdesign/services.jpg);
+        background-size: cover;
+}
+	
 }
