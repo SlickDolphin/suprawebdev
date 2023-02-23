@@ -332,12 +332,20 @@ p.services {
     text-align: left;
 }
 
+span.about {
+    display: block;
+    align-self: center;
+    padding-right: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+	
 .abouttext {
     text-align:left;
     font-size:15px;
     width: auto;
     color: lightgray;
-    margin-left: auto;
+    margin-left: 5px;
 }
 	
 .introvideo {
