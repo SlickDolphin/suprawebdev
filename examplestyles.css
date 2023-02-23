@@ -266,10 +266,11 @@ li.services {
 .logo {
   height: 50px;
   width: 150px;
-  padding-top: 4px;
+  padding-top: 2px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .aboutpara {
@@ -289,7 +290,7 @@ p.footer {
 
 .map {
     text-align:center;
-    width:cover;
+    width:auto;
     margin:5px auto;
     }
 	
