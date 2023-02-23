@@ -313,9 +313,9 @@ nav li {
 
 span.services {
     font-size:100%;
-    display: block;
+    display: inline-block;
     width: 300px;
-    top-margin:150px;
+    margin:auto;
 	}
 	
 p.services {
