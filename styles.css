@@ -32,9 +32,10 @@ header::after {
 }
 
 .logo {
-  height: 50px;
-  width: 150px;
   padding-top: 4px;
+  position:relative;
+  width:200px;
+  height:60px;
 }
 
 nav {
@@ -285,5 +286,15 @@ nav li {
   font-size: 20px;
   text-align:center;
 	}
+
+.logo {
+  padding-top: 4px;
+  position:relative;
+  width:200px;
+  height:60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 }
