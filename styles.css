@@ -310,5 +310,16 @@ nav li {
         url(/suprawebdesign/services.jpg);
         background-size: cover;
 }
-	
+
+span.services {
+    font-size:100%;
+    width: 300px;
+}
+
+p.services {
+    color: gray;
+    width: 300px;
+    text-align: left;
+}
+
 }
