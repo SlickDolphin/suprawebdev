@@ -116,6 +116,7 @@ nav a:hover::before {
 
 span.pra { 
     color:#FFD4DE;
+    font-size:60px;
 }
 
 .about {
@@ -280,5 +281,10 @@ li.services {
     text-align: center !important;
 }
 
+p.footer {
+    text-align:center;
+    width:auto;
+    margin:10px auto;
+    }
 	
 }
