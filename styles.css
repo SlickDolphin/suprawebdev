@@ -206,6 +206,10 @@ li.services {
     text-align: left;
 }
 
+.introvideo {
+    padding-left:20px;
+}
+
 .txtb{
   margin: 20px 0;
   background: rgba(255,255,255,.5);
@@ -328,4 +332,18 @@ p.services {
     text-align: left;
 }
 
+.abouttext {
+    text-align:left;
+    font-size:15px;
+    width: auto;
+    color: lightgray;
+    margin-left: auto;
+}
+	
+.introvideo {
+    margin-left:auto;
+    width: 200px;
+    height: 150px;
+}
+	
 }
