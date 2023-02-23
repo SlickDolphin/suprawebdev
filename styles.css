@@ -345,8 +345,8 @@ span.about {
     font-size:15px;
     width: auto;
     color: lightgray;
-    margin-right: 5px;
-    padding-left: 0px;
+    margin-right: 20px;
+    left: -10px;
 }
 	
 .introvideo {
