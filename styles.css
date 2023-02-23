@@ -51,7 +51,6 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
-
   position: relative;
 }
 
@@ -277,5 +276,13 @@ li.services {
 	display:block;
 	text-align:center;
 }
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 10px;
+  position: relative;
+  font-size: 20px;
+	}
 
 }
