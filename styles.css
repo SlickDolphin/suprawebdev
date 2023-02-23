@@ -16,7 +16,7 @@ body {
     z-index: 2;
     }
 
-.header {
+header {
   background: #FFFFFF;
   overflow: hidden;
   position: fixed; 
@@ -37,17 +37,17 @@ header::after {
   padding-top: 4px;
 }
 
-.nav {
+nav {
   float: right;
   }
 
-.nav ul {
+nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav li {
+nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
@@ -55,18 +55,18 @@ header::after {
   position: relative;
 }
 
-.a {
+a {
   color: #0067FF;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.nav a:hover {
+nav a:hover {
   color: #000;
 }
 
-.nav a::before {
+nav a::before {
   content: '';
   display: block;
   height: 5px;
@@ -79,7 +79,7 @@ header::after {
   transition: all ease-in-out 250ms;
 }
 
-.nav a:hover::before {
+nav a:hover::before {
   width: 100%;
 }
 
@@ -263,7 +263,7 @@ li.services {
 
 @media screen and (max-width: 481px){
 .aboutpara {
-    color:black; 
+    color:white; 
     font-size:20x; 
     font-family:Arial Narrow;
     padding-right: 10px;
