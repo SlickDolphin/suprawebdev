@@ -169,6 +169,8 @@ p.services {
     color: gray;
     width: 300px;
     text-align: left;
+    font-size:100%;
+    display: inline-block;
 }
 
 .clientsintro {
