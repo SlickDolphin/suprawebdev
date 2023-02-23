@@ -346,12 +346,12 @@ span.about {
     width: auto;
     color: lightgray;
     margin-right: 20px;
-    left: -10px;
+    left: -30px;
     width:300px;
 }
 	
 .introvideo {
-    left: 10px;
+    left: 30px;
     width: 200px;
     height: 150px;
 }
