@@ -286,5 +286,11 @@ p.footer {
     width:auto;
     margin:10px auto;
     }
+
+.map {
+    text-align:center;
+    width:cover;
+    margin:5px auto;
+    }
 	
 }
