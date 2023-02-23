@@ -347,10 +347,11 @@ span.about {
     color: lightgray;
     margin-right: 20px;
     left: 0px;
+    width:300px;
 }
 	
 .introvideo {
-    margin-left:auto;
+    left: 0px;
     width: 200px;
     height: 150px;
 }
