@@ -158,13 +158,7 @@ span.pra {
         background-size: cover;
 }
 
-span.servicesdes {
-    font-size:100%;
-    display: inline-block;
-    width: 300px;
-}
-
-span.servicesmaintcons {
+span.services {
     font-size:100%;
     display: inline-block;
     width: 300px;
@@ -317,12 +311,12 @@ nav li {
         background-size: cover;
 }
 
-span.servicesdes {
+#servicesdes {
     font-size:100%;
     width: 300px;
 }
 
-span.servicesmaintcons {
+#servicesmaintcons {
     font-size:100%;
     width: 300px;
     top-margin:30px;
