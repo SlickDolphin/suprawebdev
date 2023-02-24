@@ -334,7 +334,7 @@ p.services {
 
 span.about {
     display: block;
-    align-self: center;
+    align-self: left;
     padding-left: 0px;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -345,8 +345,8 @@ span.about {
     font-size:15px;
     width: auto;
     color: lightgray;
-    right: 10px;
     width:300px;
+    padding-left: 10px;
 }
 	
 .introvideo {
