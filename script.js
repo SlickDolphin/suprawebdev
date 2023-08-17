@@ -80,11 +80,6 @@ function loadRepertoire() {
             newMaterial(item.task, item.select);
         }
     }
-	else{
-       	newMaterial("My", false);
-        newMaterial("to-do", true);
-        newMaterial("list", false);
-    }
 }
 
 loadRepertoire();
