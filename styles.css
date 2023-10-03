@@ -1,7 +1,201 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-*{
+
+.logo {
+  height: 50px;
+  width: 300px;
+  }
+
+.nav-link {
+  color: #0067FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.nav-link::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444444;
+  position: relative;
+  bottom: auto;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.intropicindex { 
+    height: auto;
+    background:
+       /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+      /*  bottom, image */
+        url(/SWD/WorkStation.jpg);
+    background-attachment: fixed;   
+    background-size:cover;
+      }
+
+.about {
+    background-image: url("/SWD/analytics.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding: 40px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+}
+
+#left {
+    text-align:left;
+}
+
+#centre {
+    text-align:center;
+}
+
+#right {
+    text-align:right;
+}
+
+.servicespic { 
+    background:
+        url(/SWD/services.jpg);
+        background-size: cover;
+    font-weight:bold;
+	color:#ffffff;
+    margin-bottom: 0px;
+	}
+
+p.services {
+    color: black;
+    }
+
+.clientsintro {
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+.aboutpara {
+     color: black; 
+    font-family:sans-serif narrow;
+    background: rgba(255, 255, 255, .7);
+    text-shadow: none;
+}
+
+span.dmclg {
+    color:navy;
+    background: rgba(255, 255, 255, .7);
+    }
+
+span.dmcsm {
+    display: none;
+    }
+
+.about2 {
+    background-image: url("/SWD/drw.jpg");
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    height: auto;
+	padding: 10px;
+	text-shadow: 2px 1px 1px #4d4d4d;
+}
+
+.abouttext {
+   color: lightblue;
+    background: rgba(0, 0, 0, .2);
+   }
+
+.contact {
+    font-weight:600;
+    color:black;
+    }
+
+.footer {
+    background-color: lightgray;
+    }
+
+@media screen and (max-width: 920px) {
+  .h4 {
+    font-size: 1.5em; 
+  }
+   .nav-item {
+        padding-top: 3vh;
+    }
+    #left, #centre, #right {
+    text-align: center;
+    }
+    }
+
+@media screen and (max-width: 500px) {
+     .logo {
+  height: 40px;
+  width: 220px;
+  padding-top: 4px;
+}
+    span.dmclg {
+    display: none;
+    }
+    span.dmcsm {
+    color:navy;
+    background: rgba(255, 255, 255, .7);
+        display: inline-block;
+    }
+   .intropicindex { 
+    background:
+       /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+      /*  bottom, image */
+        url(/SWD/WorkStation2.jpg);
+    background-attachment: fixed;   
+    background-size:cover;
+      }
+     }
+
+/*
+#maint {
+    padding-bottom:10vh;
+}
+
+#cons {
+    padding-bottom:22vh;
+}
+
+#services {
+    padding-bottom:10vh;
+}
+
+@media screen and (max-width: 1200px) {
+    #design, #maint, #cons {
+    padding-bottom:10vh;
+}
+    #services {
+    padding-bottom:0vh;
+}
+}
+
+{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
 }
 
 body {
@@ -31,12 +225,7 @@ header::after {
   clear: both;
 }
 
-.logo {
-  padding-top: 4px;
-  position:relative;
-  width:200px;
-  height:60px;
-}
+
 
 nav {
   float: right;
@@ -52,10 +241,11 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
+
   position: relative;
 }
 
-a {
+nav a {
   color: #0067FF;
   text-decoration: none;
   text-transform: uppercase;
@@ -89,17 +279,7 @@ nav a:hover::before {
     padding-top: 100px;
 }
 
-.intropicindex { 
-    background:
-        /* top, transparent black, faked with gradient */ 
-        linear-gradient(
-          rgba(0, 0, 0, 0.4), 
-          rgba(0, 0, 0, 0.4)
-        ),
-        /* bottom, image */
-        url(/suprawebdesign/WorkStation.jpg);
-        background-size: cover;
-}
+
 
 .button {
   background-color: #4CAF50;
@@ -119,7 +299,7 @@ span.pra {
 }
 
 .about {
-    background-image: url("/suprawebdesign/drw.jpg");
+    background-image: url("/SWD/drw.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -137,26 +317,24 @@ span.pra {
     padding-left: 100px;
 }
 
-.email {
-	color:darkturquoise;
-	font-size:30px;
-	display:block;
-	text-align:center;
-}
-
 .footer {
     background-color: lightgray;
 }
 
+p.dmc {text-align:center;
+    font-size:40px;
+    color:crimson;
+}
+
 .servicespic { 
+    background:
+        url(/SWD/services.jpg);
+        background-size: cover;
     font-weight:bold;
 	color:#ffffff;
 	text-align:center;
 	font-size:500%;
-	background:
-        url(/suprawebdesign/services.jpg);
-        background-size: cover;
-}
+	}
 
 div.services {
     font-size:100%;
@@ -181,7 +359,7 @@ p.services {
 
 li.services {
     text-align: left;
-}
+    }
 
 .clientsintro {
     text-align:center;
@@ -210,10 +388,6 @@ span.about {
     width: 500px;
     color: lightgray;
     padding-left: 50px;
-}
-
-.introvideo {
-    padding-left:20px;
 }
 
 .txtb{
@@ -277,88 +451,4 @@ span.about {
     font-family: sans-serif;
     font-size: 20px;
 }
-
-@media screen and (max-width: 481px){
-.aboutpara {
-    color:white; 
-    font-size:20x; 
-    font-family:Arial Narrow;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center !important;
-}
-	
-.email {
-	color:darkturquoise;
-	font-size:20px;
-	display:block;
-	text-align:center;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 20px;
-  padding-top: 10px;
-  position: relative;
-  font-size: 10px;
-  text-align:center;
-	}
-
-.logo {
-  padding-top: 4px;
-  position:relative;
-  width:200px;
-  height:60px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.servicespic { 
-    font-weight:bold;
-	color:#ffffff;
-	text-align:center;
-	font-size:300%;
-	background:
-        url(/suprawebdesign/services.jpg);
-        background-size: cover;
-}
-
-span.services {
-    font-size:100%;
-    display: inline-block;
-    width: 300px;
-    margin:auto;
-    height: 150px;	
-	}
-	
-p.services {
-    color: gray;
-    width: 300px;
-    text-align: left;
-}
-
-span.about {
-    display: block;
-    align-self: left;
-    padding-left: 0px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-	
-.abouttext {
-    text-align:left;
-    font-size:15px;
-    width: auto;
-    color: lightgray;
-    width:300px;
-    padding-left: 10px;
-}
-	
-.introvideo {
-    left: 30px;
-    width: 200px;
-    height: 150px;
-}
-	
-}
+*/
