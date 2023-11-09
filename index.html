@@ -8,6 +8,7 @@
         <meta name="description" content="Supra Web Development - Home">
         <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <script src="bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="icon" href="icon.jpg" type="image/gif">
     </head>
@@ -72,6 +73,13 @@
     <footer class="footer text-center">
         <br><p class="h6">Copyright © 2023 - Supra Web Design</p><br>
     </footer>
+         <script>
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+        </script>
     </body>
 </html>
 
