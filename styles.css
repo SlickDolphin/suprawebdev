@@ -42,13 +42,13 @@
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(/SWD/WorkStation.jpg);
+        url(/suprawebdev/WorkStation.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
 
 .about {
-    background-image: url("/SWD/analytics.jpg");
+    background-image: url("/suprawebdev/analytics.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -72,7 +72,7 @@
 
 .servicespic { 
     background:
-        url(/SWD/services.jpg);
+        url(/suprawebdev/services.jpg);
         background-size: cover;
     font-weight:bold;
 	color:#ffffff;
@@ -105,7 +105,7 @@ span.dmcsm {
     }
 
 .about2 {
-    background-image: url("/SWD/drw.jpg");
+    background-image: url("/suprawebdev/drw.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -163,7 +163,7 @@ span.dmcsm {
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(/SWD/WorkStation2.jpg);
+        url(/suprawebdev/WorkStation2.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
@@ -299,7 +299,7 @@ span.pra {
 }
 
 .about {
-    background-image: url("/SWD/drw.jpg");
+    background-image: url("/suprawebdev/drw.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -328,7 +328,7 @@ p.dmc {text-align:center;
 
 .servicespic { 
     background:
-        url(/SWD/services.jpg);
+        url(/suprawebdev/services.jpg);
         background-size: cover;
     font-weight:bold;
 	color:#ffffff;
