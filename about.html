@@ -69,7 +69,7 @@
         <br>
     </section>
 <footer class="footer text-center">
-        <br><p class="h6">Copyright © 2023 - Supra Web Design</p><br>
+        <br><p id="ccright" class="h6"></p><br>
     </footer>
          <script>
 const navLinks = document.querySelectorAll('.nav-item')
@@ -88,6 +88,9 @@ $(function () {
             });
         });
         </script>
+<script>
+document.getElementById("ccright").innerHTML="Copyright &copy; " + new Date().getFullYear() + " - Supra Web Design";
+</script>
     </body>
 </html>
 
