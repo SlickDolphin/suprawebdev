@@ -45,13 +45,13 @@ padding-bottom:0rem;
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(/WorkStation.jpg);
+        url(WorkStation.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
 
 .about {
-    background-image: url("/SWD/analytics.jpg");
+    background-image: url("analytics.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -75,7 +75,7 @@ padding-bottom:0rem;
 
 .servicespic { 
     background:
-        url(/services.jpg);
+        url(services.jpg);
         background-size: cover;
     font-weight:bold;
 	color:#ffffff;
@@ -108,7 +108,7 @@ span.dmcsm {
     }
 
 .about2 {
-    background-image: url("/drw.jpg");
+    background-image: url("drw.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -167,7 +167,7 @@ padding-bottom:0rem;
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(/WorkStation2.jpg);
+        url(WorkStation2.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
