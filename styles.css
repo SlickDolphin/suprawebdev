@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 .logo {
-  height: 50px;
-  width: 450px;
-  padding-left:8vw;
+  max-height: auto;
+  max-width: 400px;
+  padding-left:5vw;
     padding-top: 0rem;
 padding-bottom:0rem;
   }
@@ -45,13 +45,13 @@ padding-bottom:0rem;
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(WorkStation.jpg);
+        url(/SWD/WorkStation.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
 
 .about {
-    background-image: url("analytics.jpg");
+    background-image: url("/SWD/analytics.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -75,7 +75,7 @@ padding-bottom:0rem;
 
 .servicespic { 
     background:
-        url(services.jpg);
+        url(/SWD/services.jpg);
         background-size: cover;
     font-weight:bold;
 	color:#ffffff;
@@ -108,7 +108,7 @@ span.dmcsm {
     }
 
 .about2 {
-    background-image: url("drw.jpg");
+    background-image: url("/SWD/drw.jpg");
 	background-image: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -144,14 +144,13 @@ span.dmcsm {
     }
     }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
      .logo {
-  height: 40px;
-  width: 180px;
+  max-height: auto;
+  max-width: 250px;
   padding-left:0vw;
- padding-top: 0rem;
 padding-bottom:0rem;
-}
+    }
     span.dmclg {
     display: none;
     }
@@ -168,12 +167,20 @@ padding-bottom:0rem;
           rgba(0, 0, 0, 0.4)
         ),
       /*  bottom, image */
-        url(WorkStation2.jpg);
+        url(/SWD/WorkStation2.jpg);
     background-attachment: fixed;   
     background-size:cover;
       }
      }
 
+@media screen and (max-width: 300px) {
+     .logo {
+  max-height: auto;
+  max-width: 180px;
+  padding-left:0vw;
+padding-bottom:0rem;
+    }
+}
 /*
 #maint {
     padding-bottom:10vh;
