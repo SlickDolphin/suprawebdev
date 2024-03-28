@@ -2,7 +2,10 @@
 
 .logo {
   height: 50px;
-  width: 300px;
+  width: 450px;
+  padding-left:8vw;
+    padding-top: 0rem;
+padding-bottom:0rem;
   }
 
 .nav-link {
@@ -144,8 +147,10 @@ span.dmcsm {
 @media screen and (max-width: 500px) {
      .logo {
   height: 40px;
-  width: 220px;
-  padding-top: 4px;
+  width: 180px;
+  padding-left:0vw;
+ padding-top: 0rem;
+padding-bottom:0rem;
 }
     span.dmclg {
     display: none;
